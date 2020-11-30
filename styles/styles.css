@@ -14,8 +14,14 @@ body{
     font-family: 'Asap', sans-serif;
     font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
+a{
+    cursor: pointer;
+}
+
 /* nav section */
+/* MC: need to fix padding on share and donate buttons */
 #navbar{
     background-color: #232323;
     overflow: hidden;
@@ -76,9 +82,10 @@ body{
 
 /* road section */
 #road{
-    background-image: url(./images/gilbert1.png);
+    background-image: url(../images/gilbert1.png);
+    
 }
 /* style for quote */
 #quote{
-    background-image: url(./images/gilbert2.png);
+    background-image: url(../images/gilbert2.png);
 }
