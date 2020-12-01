@@ -79,6 +79,66 @@ a{
 }
 
 /* top section */
+/* *{
+    border: 1px solid red;
+} */
+#top{
+    /* background-image: url(../images/topGM.png);
+    background-position: center;
+    background-repeat: no-repeat;  
+    color: transparent; 
+    width: 100vw;
+    height: 70vh;  */
+    background-color: #3f3f3f;    
+}
+
+.top-initials {
+    position: relative;
+    top: 50px;
+    left: 115px;
+    margin: 50px 20px 0 20px;
+}
+h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #64593F;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    position: absolute;
+    top: 250px;
+    right: 450px;
+}
+.follow{
+    border: solid 1px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    margin: 0;
+    height: 50px;
+    width: 100px;
+}
+.follow-container{
+    position: absolute;
+    top: 350px;
+    right: 730px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons{
+    /* margin: 0 0 0 500px;
+    padding: 0 0 0 800px; */
+    position: absolute;
+    bottom: 310px;
+    right: -15px;
+    padding-right: 35px;
+}
+#instagram, #facebook{
+    padding: 10px;
+}
+
 
 /* road section */
 #road{
