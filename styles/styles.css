@@ -324,3 +324,6 @@ left: 10%;
 .contact-bottom-words{
     margin: -20px;
 }
+button{ 
+    cursor: pointer;
+}
