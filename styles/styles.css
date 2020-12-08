@@ -8,10 +8,7 @@
 }
 /* desktop view */
 @media only screen and (min-width: 700px){
-    /* #top-container{
-        display: grid;
-        grid-template-areas: "followbox icons";
-    } */
+    
 }
 
 *{
@@ -36,7 +33,6 @@ body{
 #navbar{
     background-color: #232323;
     overflow: hidden;
-    margin-bottom: 20px;
     padding: 20px;
     display: flex;
     /* width: 100%; */
@@ -47,21 +43,25 @@ body{
     font-family: 'Asap', sans-serif;
     font-size: 18px;
     text-decoration: none;
-    margin: auto;
-    padding: 20px 30px 0px 30px;
+    margin: 0 25px;
+    padding: 0px 5px;
     justify-content: center;
     align-items: center;
     text-align: center;
-   
 }
-#navbar a:hover{
-    color:black;
+#navbar .nav-links a:hover, a:visited{
+    border-bottom: solid  #791C1C 7px;
+    padding-bottom: 20px;
+}
+
+.logo{
+     justify-content: center;
+     align-items: center;
+     text-align: left;
 }
 #logo{
-     margin-left: 30px; 
-     margin-right: 100px;
-     width: 5%;
-     height: 15%;
+    width: 45%;
+     height: 100%;
 }
 .nav-links{
     padding-left: 100px;   
@@ -110,7 +110,7 @@ body{
     top: 0;
     width: 100%;
 }
-/*Top padding added to page content to prevent sudden quick movement (as the nav bar gets a new position at the top of the page)*/
+Top padding added to page content to prevent sudden quick movement (as the nav bar gets a new position at the top of the page)
 .sticky + body{
     padding-top: 60px;
 }
@@ -122,8 +122,8 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     background-size: 84%;
-    /* height: 520px; */
     height: 70vh;
+    margin-top: 30px;
 }
 
 #top-container{
