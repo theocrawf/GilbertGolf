@@ -52,6 +52,10 @@ body{
     border-bottom: solid  #791C1C 7px;
     padding-bottom: 20px;
 } */
+.current{
+    border-bottom: solid  #791C1C 7px;
+    padding-bottom: 20px;
+}
 .logo{
      justify-content: center;
      align-items: center;
