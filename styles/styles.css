@@ -1,15 +1,6 @@
-/* *{
+*{
     border: 1px solid red;
-}  */
-
-/* mobile view */
-@media only screen and (max-width: 700px){ 
-
-}
-/* desktop view */
-@media only screen and (min-width: 700px){
-    
-}
+} 
 
 *{
     margin: 0;
@@ -17,6 +8,450 @@
       box-sizing: border-box;
   }
 
+/* mobile view */
+@media only screen and (max-width: 1000px){ 
+    /*-----------nav section---------------*/
+    #logo{
+        width: 50px;
+         height: 40px;
+    }
+
+      /*--------top section-------------- */
+#top{ 
+    background-size: 80%;
+    background-position: center;
+}
+#top-container{
+    height: 250px;
+    width: 100%;
+    display: block;
+}
+.name{
+    width: 100%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.follow-container{
+    letter-spacing: 10px;
+    width: 100%;
+   padding-top: 60px;
+    margin-top: 5%;
+    /* transform: translate(25%, 100%); */
+}
+
+.follow{
+    font-size: 12px;
+    padding: 3px 5px;
+    margin-top: 20px;
+    /* margin-right: 5%; */
+    height: 35px;
+    width: 65px;
+}
+
+.social-icons{
+    /* margin-top: 15%; */
+    float: right;
+    margin-right: 5px;
+ }
+ 
+ #instagram, #facebook{
+     width: 40px;
+     height: 40px;
+     padding: 5px;
+ }
+
+ /*--------------road section---------*/
+#road{
+    background-size: cover;
+    border-radius: 20px;
+    height: 250px;
+}
+#road h2{
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.road-container{
+    width: 75%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+   
+}
+#road p{
+    font-size: 11px;
+    width: 48%;
+    background-color: #232323;
+    opacity: 0.7;
+}
+.readmore{
+    padding: 7px;
+    border-radius: 5px;    
+    margin-top: 5%;
+    height: 30px;
+    width: 85px;
+    font-size: 10px;
+}
+
+/*------------certified section----------------*/
+#certified{
+    background-size: 80%;
+    background-position: bottom;
+    width: 100%;
+    height: 250px;
+}
+.certified{
+    width: 80%;
+    height: auto;
+    text-align: right;
+    margin-top: 20px;  
+    float: right;
+    margin-right: 25px;
+}
+#certified h2{
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.certified p{
+    width: 100%;
+    font-size: 12px;
+    background-color: #232323;
+    opacity: 0.6;
+}
+#certified-button{
+    margin-top: 10px;
+}
+
+/* style for quote */
+#quote{
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    border-radius: 15px;
+}
+.quote{
+    width: 45%;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 4px;
+    line-height: 22px;
+    margin-top: 15%;
+    margin-left: 55%;
+    padding-top: 5%;
+    background-color: #232323;
+    opacity: 0.3;
+    border: transparent;
+    border-radius: 10px;
+}
+
+/*sponsor section*/
+.sponsor-container{
+    /* height: 800px; */
+    margin: 0;
+    width: auto;
+}
+.sponsors{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.sponsors h2{
+    letter-spacing: 4px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.thank{
+    margin-top: -5px;
+    font-size: 15px;
+}
+.sponsor-names{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 30px; 
+    font-size: 12px;
+}
+.follow-button{
+    width: 25%;
+    height: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+    transform: translate(0,85%);
+}
+.contact-bottom{   
+    text-align: right;
+    line-height: 60px;
+    margin-bottom: 0px;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.gil, .austin{
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.social-bottom{
+    width: 100%;
+    margin:auto;
+    transform: translate(0, 40%);
+}
+.social-bottom a{
+padding: 2%;
+}
+
+.contact-bottom-words{
+    background-size: 100%;
+    background-position: bottom;
+    margin-bottom: 0;
+    height: auto;
+    width: 80%;
+}
+
+#insta{
+    width: 40px;
+    height: 35px;
+}
+#fb{
+    width: 37px;
+    height: 34px;
+    padding-bottom: 3px;
+}
+#email{
+    width: 37px;
+    height: 34px;
+    padding-bottom: 4px;
+}
+
+}
+/*-----------------------------------------------------------------*/
+
+/* desktop view */
+@media only screen and (min-width: 1000px){
+    /*-----------nav section----------*/
+    #logo{
+        width: 50%;
+         height: 90%;
+    }
+
+    #navbar{
+        padding: 20px;
+        display: flex;
+    }
+
+    /*----------- top section----------- */
+#top{ 
+    background-size: 84%;
+    background-position: top;
+    height: 70vh;
+    margin-top: 30px;
+}
+
+#top-container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.follow-container{
+    letter-spacing: 13px;
+    width: 80%;
+    height: 40%;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 0px;
+   
+}
+.follow{
+    font-size: larger;
+    padding: 10px 15px;
+    margin-top: 90px;
+    margin-right: 70px;
+    height: 50px;
+    width: 100px;
+}
+
+.social-icons{
+   /* height: 50px; */
+   width: 20%;
+   height: 10%;
+   padding-left: 0px;
+   margin-bottom: 20px;
+}
+
+#instagram, #facebook{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+/*--------------road section---------*/
+#road{
+    width: 100%;
+    height: 623px;
+    border-radius: 30px;
+}
+#road h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.road-container{
+    transform: translate(20%, 50%);
+    width: 25%;
+    height: 55%;
+    margin-left: 20px;
+    padding: 5px;
+   
+}
+#road p{
+    font-size: 22px;
+}
+.readmore{
+    padding: 12px;
+    border-radius: 7px;    
+    margin-top: 40px;
+}
+
+/*------------certified section--------------*/
+#certified{
+    background-size: 80%;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+}
+.certified{
+    width: 70%;
+    height: 60%;
+    text-align: right;
+    margin-right: 0;  
+    font-size: 22px;
+    transform: translate(22%, 50%);
+}
+#certified h2{
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.certified p{
+    width: 100%;
+}
+#certified-button{
+    margin-top: 80px;
+}
+
+/* style for quote */
+#quote{
+    background-size: 100%;
+    width: 100%;
+    height: 620px;
+    margin-top: -60px;
+    margin-left: -10px;
+    border-radius: 30px;
+}
+.quote{
+    width: 50%;
+    transform: translate(85%, 340%);
+    font-size: 30px;
+    text-align: right;
+    letter-spacing: 4px;
+    line-height: 60px;
+}
+
+/*sponsor section*/
+.sponsor-container{
+    height: 1000px;
+    margin: 0;
+    width: auto;
+}
+.sponsors{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%, 20%);
+    text-align: center;
+}
+.sponsors h2{
+    letter-spacing: 4px;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.thank{
+    margin-top: -5px;
+    font-size: 22px;
+}
+.sponsor-names{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    padding: 30px; 
+    font-size: 20px;
+}
+.follow-button{
+    width: 25%;
+    height: 25%;
+    transform: translate(0%, 85%);
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+.contact-bottom{   
+    text-align: right;
+    line-height: 150px;
+    transform: translate(20%, 70%);
+    margin-bottom: 0px;
+    padding: 0;
+    display: flex;
+    width: 80%;
+    height: 50%;
+}
+.gil, .austin{
+    letter-spacing: 4px;
+    font-size: 23px;
+}
+.social-bottom{
+    width: 100%;
+    justify-content: right;
+}
+.social-bottom a{
+ padding: 40px 0px 0 20px;
+ margin: auto;
+}
+
+.contact-bottom-words{
+    margin-bottom: 0;
+    height: 450px;
+    width: 80%;
+}
+
+#insta, #fb{
+    width: 50px;
+    height: 45px;
+}
+#email{
+    width: 45px;
+    height: 45px;
+    padding-bottom: 4px;
+    margin-right: 7px;
+}
+
+
+}
+/*----------------------------------------------------------------------------*/
+
+  /*--------------outside of media queries--------*/
 body{
     color: white;
     background-color: #3f3f3f;
@@ -29,12 +464,10 @@ body{
     /* width: 100%; */
 }
 
-/* nav section */
+/*--------- nav section------------ */
 #navbar{
     background-color: #232323;
     overflow: hidden;
-    padding: 20px;
-    display: flex;
     /* width: 100%; */
     z-index: 2;
 }
@@ -54,16 +487,6 @@ body{
     padding-bottom: 20px;
 }
 
-
-.logo{
-     justify-content: center;
-     align-items: center;
-     text-align: left;
-}
-#logo{
-    width: 50%;
-     height: 90%;
-}
 .nav-links{
     padding-left: 100px;   
     padding-top: 5px;
@@ -106,6 +529,12 @@ body{
     cursor: pointer;
 }
 
+.logo{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
 /*The sticky class is added to the navbar with JS when it reaches its scroll position*/
 .sticky{
     position: fixed;
@@ -117,207 +546,110 @@ body{
     padding-top: 60px;
 }
 
-/* top section */
+/*---------- top section-------------- */
 #top{
     background-color: #3f3f3f;
     background-image: url(../images/topGM.png); 
-    background-position: top;
     background-repeat: no-repeat;
-    background-size: 84%;
-    height: 70vh;
-    margin-top: 30px;
-}
-
-#top-container{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    /* transform: translate(-50%, -50%); */
 }
 
 .follow-container{
     font-family: 'Bai Jamjuree', sans-serif;
     color: #8F8873;
     text-transform: uppercase;
-    letter-spacing: 13px;
-    width: 80%;
-    height: 40%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    margin-left: 300px;
-    margin-right: 0px;
     display: block;
-   
 }
 .follow{
     border: solid 1px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: larger;
     background-color: transparent;
     color: white;
-    padding: 10px 15px;
-    margin-top: 90px;
-    margin-right: 70px;
-    height: 50px;
-    width: 100px;
     cursor: pointer;
 }
 .follow:hover{
     opacity: 30%;
 }
 
-.social-icons{
-   /* height: 50px; */
-   width: 20%;
-   height: 10%;
-   padding-left: 0px;
-   margin-bottom: 20px;
-}
-
 #instagram, #facebook{
-    width: 70px;
-    height: 70px;
     cursor: pointer;
-    padding: 10px;
 }
 #instagram:hover, #facebook:hover{
 opacity: 30%;
 }
 
-/* road section */
+/*------------ road section--------------- */
 #road{
     background-image: url(../images/gilbert1.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    height: 623px;
     display: block;
-    border-radius: 30px;
 }
 #road h2{
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 36px;
     letter-spacing: 1px;
-    padding-bottom: 20px;
 }
 
 .road-container{
     text-align: left;
-    transform: translate(20%, 50%);
-    width: 25%;
-    height: 55%;
-    margin-left: 20px;
-    padding: 5px;
-   
 }
 #road p{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 22px;
-
 }
 .readmore{
     background-color: #CB5D0D;
     color: white;
     font-family: 'Asap', sans-serif;
-    padding: 12px;
-    border: none;
-    border-radius: 7px;    
-    margin-top: 40px;
+    border: none; 
 }
 .readmore:hover{
     opacity: 30%;
 }
 
-/*certified section*/
+/*------------certified section----------------*/
 #certified{
     background-image: url(../images/GM.png);
     background-repeat: no-repeat;
     background-color: #3f3f3f;
-    background-size: 80%;
-    background-position: bottom;
-    width: 100vw;
-    height: 100vh;
 }
 .certified{
-    width: 70%;
-    height: 60%;
-    text-align: right;
-    margin-right: 0;  
-    font-size: 22px;
     font-family: 'Roboto';
-    transform: translate(22%, 50%);
 }
 #certified h2{
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 36px;
     letter-spacing: 1px;
-    margin-bottom: 50px;
 }
-.certified p{
-    width: 100%;
-}
-#certified-button{
-    margin-top: 80px;
-}
+
 
 /* style for quote */
 #quote{
     background-image: url(../images/gilbert2.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: 620px;
-    margin-top: -60px;
-    margin-left: -10px;
-    border-radius: 30px;
 }
 .quote{
-    width: 50%;
-    transform: translate(85%, 340%);
     font-family: 'Arapey';
     font-weight: 500;
-    font-size: 30px;
-    text-align: right;
     letter-spacing: 4px;
-    line-height: 60px;
 }
 
 /*sponsor section*/
 .sponsor-container{
     background-color: #3f3f3f;
-    height: 1000px;
-    margin: 0;
-    width: auto;
-}
-.sponsors{
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    transform: translate(50%, 20%);
-    text-align: center;
 }
 .sponsors h2{
     font-family: 'Bai Jamjuree', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 34px;
-    margin-bottom: 20px;
 }
 .thank{
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: #676767;
-    margin-top: -5px;
-    font-size: 22px;
 }
 .sponsor-names{
     color: #8F8873;
@@ -326,63 +658,29 @@ opacity: 30%;
     text-transform: uppercase;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 60px;
-    padding: 30px; 
-    font-size: 20px;
 }
 .follow-button{
-width: 25%;
-height: 25%;
-transform: translate(0%, 85%);
 justify-content: left;
 align-items: left;
 text-align: left;
 }
 .contact-bottom{   
     text-align: right;
-    line-height: 150px;
-    transform: translate(20%, 70%);
-    margin-bottom: 0px;
-    padding: 0;
     display: flex;
-    width: 80%;
-  height: 50%;
 }
 .gil, .austin{
     font-family: 'Bai Jamjuree';
     color: #8F8873;
     letter-spacing: 4px;
-    font-size: 23px;
-}
-.social-bottom{
-    width: 100%;
-    justify-content: right;
-}
-.social-bottom a{
- padding: 40px 0px 0 20px;
- margin: auto;
 }
 
 .contact-bottom-words{
     background-image: url(../images/GM.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-bottom: 0;
-    height: 450px;
-    width: 80%;
 }
 button{ 
     cursor: pointer;
-}
-#insta, #fb{
-    width: 50px;
-    height: 45px;
-}
-#email{
-    width: 45px;
-    height: 45px;
-    padding-bottom: 4px;
-    margin-right: 7px;
 }
 
 #email:hover, #insta:hover, #fb:hover{
