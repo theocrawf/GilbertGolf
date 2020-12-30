@@ -15,3 +15,21 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
+
+
+//Hamburger menu
+var Navigation = document.getElementById("Navigation");
+
+Navigation.style.maxHeight = "0px";
+
+function menutoggle(){
+    if(Navigation.style.maxHeight == "0px")
+    {
+        Navigation.style.maxHeight = "200px";
+    }
+    else
+    {
+        Navigation.style.maxHeight = "0px"
+    }
+}
+    

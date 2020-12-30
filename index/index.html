@@ -11,25 +11,30 @@
 </head>
 <body>
   <!-- navbar -->
-  <div id="nav">
-    <div id="navbar">
+  <div id="navbar" class="navbar">
       <div class="logo">
-      <a href="index.html"><img id="logo" src="../images/GM (2).png" alt="logo"></a></div>
-      <div class="nav-links">
-      <a href="./onthecourse.html">ON THE COURSE</a>
-      <a href="./offthecourse.html">OFF THE COURSE</a>
-      <a href="./lessons.html" >LESSONS</a>
-    </div>
-      <a href="" target="_blank"><button id="share">Share</button></a>
-      <a href="./donate.html" target="_blank"><button id="donate">Donate</button></a>
-     </div>
+        <a href="index.html"><img id="logo" src="../images/GM (2).png" alt="logo"></a>
+      </div>
+        <ul id="Navigation">
+          <div class="nav-links">
+            <li><a href="./onthecourse.html">ON THE COURSE</a></li>
+            <li><a href="./offthecourse.html">OFF THE COURSE</a></li>
+            <li><a href="./lessons.html" >LESSONS</a></li>
+          </div>
+        </ul>
+        <img src="../images/menuwhite.png" class="menu-icon" onclick="menutoggle()">
+          <div class="buttons">
+            <a href="" target="_blank"><button id="share">Share</button></a>
+            <a href="./donate.html" target="_blank"><button id="donate">Donate</button></a>
+          </div>
   </div>
+ 
   <!-- top section -->
   <div id="top">
     <div id="top-container">
       <div class="follow-container">
       <h1 class="name">Gilbert Mendez, PGA</h1>
-        <a href="subscribe.html" target="#orangeModalSubscription"><button class="follow">Follow</button></a>
+        <!-- <a href="subscribe.html" target="#orangeModalSubscription"><button class="follow">Follow</button></a> -->
       </div> 
       <div class="social-icons">
       <a href="https://www.instagram.com/gilmendezgolf/" target="_blank"><img id="instagram" src="../images/instagram.png" alt="Instagram"></a>
@@ -39,6 +44,7 @@
   </div>
   <!-- road to pga section -->
   <div id="road">
+    <img src="../images/gilbert1.png" alt="golf swing">
     <div class="road-container">
     <h2>Road to the PGA <br> Tour</h2>
     <p>I am looking for your support to help achieve my life long dream of playing on the PGA Tour. I started playing golf 20 years ago...</p>
@@ -76,7 +82,7 @@
       </div>
       <div class="contact-bottom">
           <div class="follow-button">
-          <a href="" target="_blank"><button class="follow">Follow</button></a>
+          <!-- <a href="" target="_blank"><button class="follow">Follow</button></a> -->
           </div>
      
             <div class="contact-bottom-words">
@@ -90,6 +96,9 @@
             </div>
       </div>
     </div>
+  </div>
+  <div class="footer">
+    <a href="https://www.toadstoolcreative.com" target="_blank">Website Created by Toadstool Creative Group</a>
   </div>
 
   <script src="../js/main.js"></script>

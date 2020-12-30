@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px solid red;
-} 
+}  */
 
 *{
     margin: 0;
@@ -12,8 +12,59 @@
 @media only screen and (max-width: 1000px){ 
     /*-----------nav section---------------*/
     #logo{
-        width: 50px;
-         height: 40px;
+        width: 45px;
+         height: 25px;
+    }
+    .logo, .nav-links, .buttons{
+        display: inline-block;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        margin: 0;
+        padding: 5px;
+        /* align-items: center; */
+      }
+
+      .logo{
+          margin-left: 10px;
+          padding-top: 15px;
+      }
+
+      .buttons{
+          justify-content: right;
+      }
+    .nav-links{
+       
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: right;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+        margin-top: 15px;
+      }
+    
+    #share{
+        height: 30px;
+        width: 70px;
+        margin-left: 0px;
+        padding: 5px;
+    }
+    #donate{
+        height: 30px;
+        width: 90px;
+        margin: 5px;
+        padding: 5px;
     }
 
       /*--------top section-------------- */
@@ -28,15 +79,18 @@
 }
 .name{
     width: 100%;
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin: 0px;
+    padding-top: 50px;
+    text-align: center;
 }
 
 .follow-container{
     letter-spacing: 10px;
-    width: 100%;
+    width: auto;
    padding-top: 60px;
-    margin-top: 5%;
+    margin-top: 10px;
+    margin-bottom: 50px;
     /* transform: translate(25%, 100%); */
 }
 
@@ -50,7 +104,7 @@
 }
 
 .social-icons{
-    /* margin-top: 15%; */
+    margin-top: 25px;
     float: right;
     margin-right: 5px;
  }
@@ -63,34 +117,42 @@
 
  /*--------------road section---------*/
 #road{
-    background-size: cover;
+    height: 250px;   
+}
+#road img{
     border-radius: 20px;
-    height: 250px;
+    width: 100vw;
+    height: 33vh;
+    filter: brightness(65%);
 }
 #road h2{
     font-size: 22px;
     letter-spacing: 1px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 .road-container{
-    width: 75%;
+    width: 90%;
     height: auto;
-    margin-top: 20px;
     margin-left: 10px;
     padding: 5px;
+    position: absolute;
+    top: 250px;
+    left: 0;
    
 }
 #road p{
-    font-size: 11px;
-    width: 48%;
-    background-color: #232323;
-    opacity: 0.7;
+    font-size: 13px;
+    text-shadow: -2px -2px 5px rgba(0,0,0,0.5);
+    width: 50%;
+    /* background-color: #232323;
+    opacity: 0.7; */
 }
 .readmore{
     padding: 7px;
     border-radius: 5px;    
-    margin-top: 5%;
+    margin-top: 10px;
     height: 30px;
     width: 85px;
     font-size: 10px;
@@ -110,6 +172,7 @@
     margin-top: 20px;  
     float: right;
     margin-right: 25px;
+    padding-bottom: 10px;
 }
 #certified h2{
     font-size: 22px;
@@ -118,9 +181,9 @@
 }
 .certified p{
     width: 100%;
-    font-size: 12px;
-    background-color: #232323;
-    opacity: 0.6;
+    font-size: 14px;
+    /* background-color: #232323;
+    opacity: 0.6; */
 }
 #certified-button{
     margin-top: 10px;
@@ -130,23 +193,27 @@
 #quote{
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 200px;
     margin-top: -20px;
     border-radius: 15px;
 }
 .quote{
-    width: 45%;
-    text-align: center;
     font-size: 10px;
     letter-spacing: 4px;
-    line-height: 22px;
-    margin-top: 15%;
-    margin-left: 55%;
-    padding-top: 5%;
-    background-color: #232323;
-    opacity: 0.3;
+    line-height: 22px;   
+    width: 100%;
+    margin-top: 50px;
+}
+.quote p{
+    text-align: right;
+    /* transform: translate(180%, 250%); */
+    /* background-color: #232323;
+    opacity: 0.3; */
     border: transparent;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 50%;
+   padding-top: 5px;
+    
 }
 
 /*sponsor section*/
@@ -189,10 +256,10 @@
     text-align: right;
     line-height: 60px;
     margin-bottom: 0px;
-    padding: 0;
+    padding-bottom: 15px;
     display: flex;
     width: 100%;
-    height: 50%;
+    height: 40%;
 }
 .gil, .austin{
     letter-spacing: 4px;
@@ -200,11 +267,11 @@
 }
 .social-bottom{
     width: 100%;
-    margin:auto;
+    margin: 0;
     transform: translate(0, 40%);
 }
 .social-bottom a{
-padding: 2%;
+padding: 5px;
 }
 
 .contact-bottom-words{
@@ -213,6 +280,7 @@ padding: 2%;
     margin-bottom: 0;
     height: auto;
     width: 80%;
+    padding-right: 10px;
 }
 
 #insta{
@@ -230,21 +298,108 @@ padding: 2%;
     padding-bottom: 4px;
 }
 
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 10px;
+}
+
 }
 /*-----------------------------------------------------------------*/
+/*media query for menu*/
+@media only screen and (max-width: 1000px){
+        ul{
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            background: #232323;
+            width: 70%;
+            overflow: hidden;
+            transition: max-height 0.5s;
+            font-family: 'Asap', sans-serif;
+            border: transparent;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+         ul li{
+            display: block;
+            margin: 10px;
+            padding: 0;
+            font-size: 15px;
+            width: 100%;
+            text-align: center;
+        }
+         ul li a{
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+}
 
 /* desktop view */
 @media only screen and (min-width: 1000px){
     /*-----------nav section----------*/
-    #logo{
+    .logo{
         width: 50%;
          height: 90%;
+         padding-left: 20px;
     }
+    
+.navbar{
+    overflow: hidden;
+    /* width: 100%; */
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+}
 
-    #navbar{
-        padding: 20px;
-        display: flex;
-    }
+.navbar ul li a{
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 5px 5px;
+}
+.navbar ul{
+    margin-left: -30px;
+}
+.navbar .nav-links a:hover, a:visited{
+    border-bottom: solid  #791C1C 7px;
+    padding-bottom: 20px;
+}
+
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    padding-top: 15px;
+    width: 100%;
+}
+
+
+.menu-icon{
+    display: none;
+}
+
+.buttons{
+    padding-top: 10px;
+}
+
+#share{
+    height: 30px;
+    width: 75px;
+    margin-left: 30px;
+    /* margin-right: -15px; */
+    padding: 5px;
+}
+
+#donate{
+    height: 30px;
+    width: 95px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
 
     /*----------- top section----------- */
 #top{ 
@@ -302,6 +457,9 @@ padding: 2%;
     height: 623px;
     border-radius: 30px;
 }
+#road img{
+    margin-left: -23px;
+}
 #road h2{
     font-size: 36px;
     letter-spacing: 1px;
@@ -309,11 +467,14 @@ padding: 2%;
 }
 
 .road-container{
-    transform: translate(20%, 50%);
-    width: 25%;
+    width: 50%;
     height: 55%;
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 5px;
+    margin-top: -450px;
+    /* position: absolute;
+    top: 100px;
+    left: 0; */
    
 }
 #road p{
@@ -402,7 +563,7 @@ padding: 2%;
 .follow-button{
     width: 25%;
     height: 25%;
-    transform: translate(0%, 85%);
+    transform: translate(0%, 100%);
     justify-content: left;
     align-items: left;
     text-align: left;
@@ -415,7 +576,7 @@ padding: 2%;
     padding: 0;
     display: flex;
     width: 80%;
-    height: 50%;
+    height: 45%;
 }
 .gil, .austin{
     letter-spacing: 4px;
@@ -446,7 +607,11 @@ padding: 2%;
     padding-bottom: 4px;
     margin-right: 7px;
 }
-
+ .footer{
+     text-align: right;
+     margin: 0;
+     padding: 5px;
+ }
 
 }
 /*----------------------------------------------------------------------------*/
@@ -465,36 +630,18 @@ body{
 }
 
 /*--------- nav section------------ */
-#navbar{
+.navbar{
     background-color: #232323;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* width: 100%; */
     z-index: 2;
 }
-#navbar a{
+
+.navbar ul li a{
     color: #A6A6A6;
     font-family: 'Asap', sans-serif;
-    font-size: 18px;
+    list-style-type: none;
     text-decoration: none;
-    margin: 0 25px;
-    padding: 0px 5px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-#navbar .nav-links a:hover, a:visited{
-    border-bottom: solid  #791C1C 7px;
-    padding-bottom: 20px;
-}
-
-.nav-links{
-    padding-left: 100px;   
-    padding-top: 5px;
-    margin-left: 50px;
-    width: 85%;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
 }
 
 #share{
@@ -503,11 +650,6 @@ body{
     background-color: transparent;
     color:#FFF;
     border-radius: 5px;
-    height: 30px;
-    width: 75px;
-    margin-left: 40px;
-    margin-right: -15px;
-    padding: 5px;
     cursor: pointer;
 }
 #share:hover{
@@ -522,18 +664,9 @@ body{
     background-color: #791C1C;
     color:#FFF;
     border-radius: 5px;
-    height: 30px;
-    width: 95px;
-    margin: 0px;
-    padding: 5px;
     cursor: pointer;
 }
 
-.logo{
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-}
 
 /*The sticky class is added to the navbar with JS when it reaches its scroll position*/
 .sticky{
@@ -584,7 +717,7 @@ opacity: 30%;
 
 /*------------ road section--------------- */
 #road{
-    background-image: url(../images/gilbert1.png);
+    /* background-image: url(../images/gilbert1.png); */
     background-repeat: no-repeat;
     background-position: center;
     display: block;
@@ -685,4 +818,9 @@ button{
 
 #email:hover, #insta:hover, #fb:hover{
     opacity: 30%;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
 }
