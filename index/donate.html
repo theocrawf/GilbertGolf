@@ -6,37 +6,65 @@
     <title>GilbertMendezGolfDonate</title>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/donate.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arapey&family=Asap&family=Bai+Jamjuree:wght@200&display=swap&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
+        <!-- navbar -->
+    <div id="navbar" class="navbar">
+        <div class="logo">
+        <a href="index.html"><img id="logo" src="../images/GM (2).png" alt="logo"></a>
+        </div>
+        <ul id="Navigation">
+            <div class="nav-links">
+            <li><a href="./onthecourse.html">ON THE COURSE</a></li>
+            <li><a href="./offthecourse.html">OFF THE COURSE</a></li>
+            <li><a href="./lessons.html" >LESSONS</a></li>
+            </div>
+        </ul>
+        <img src="../images/menuwhite.png" class="menu-icon" onclick="menutoggle()">
+            <div class="buttons">
+            <a href="" target="_blank"><button id="share">Share</button></a>
+            <a href="./donate.html" target="_blank"><button id="donate">Donate</button></a>
+            </div>
+        </div>
     <!-- Thank you and info on what they are donating to -->
-    <div id="thankyou">
-        <h1>Thank you for your support</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Molestiae atque rerum, doloremque quia molestias beatae distinctio magni placeat, dolorum, numquam similique et reiciendis 
-        laboriosam obcaecati excepturi nihil aut qui! Provident!</p>
+    <div id="container">
+        <div id="thankyou">
+            <div class="thanktext">
+            <h1 class="title">Thank you for your support!</h1>
+            <p> I am going to fulfill a dream of playing in a PGA Tour event but I don't want it to stop there. This is why I am asking for
+                your support to help fund my journey in 2021 and it starts now. My fundraising goal includes tournament fees, travel and
+                stay expenses that begin in December with plans on playing Winter series events in Port St. Lucie Florida, Houston, and 
+                Dallas.</p>
+                <p> Funds will also help pay for entry fees into other various PGA Tour qualifiers, All Pro Tour: APT events, more 
+                STPGA events, AND 2021 Q-School for the remainder of the year. Whatever you decide to contribute is beyond appreciative.
+                <b>Thank you</b> for investing and believing in me.</p>
+                </div>
+        </div>
+        <!-- To pay using this site -->
+        <div class="form">
+            <div class="name" label for="cname">Name on Card
+            <input type="text" id="cname" name="cardname"></div>
+            <div class="ccnum" for="ccnum">Payment Info
+            <input type="text" id="ccnum" name="cardnumber" placeholder="2222 2222 2222 2222"></div>
+            <div class="exp"><input type="text" id="exp" name="expmonth/year" placeholder="MM/YY"></div>
+            <div class="cvc"><input type="text" id="cvc" name="cvc" placeholder="CVC#"></div>
+            <div class="zip" for="zipcode">Zip Code
+            <input type="text" id="zipcode" name="zipcode"></div>
+            <div class="email" for="email">E-mail
+            <input type="text" id="email" name="email"></div>
+            <button class="button" type="submit"><a href="#">Submit</a></button>
+            <!-- Specific payment methods -->
+            <div class="pay">
+                <a href="" target="_blank"><img id="cash" src="../images/pay.png" alt="Cashapp"></a>
+                <a href="https://account.venmo.com/u/gilmendezgolf" target="_blank"><img id="venmo" src="../images/venmo.png" alt="Venmo"></a>
+                <a href="" target="_blank"><img id="googlepay" src="../images/googlepay.png" alt="GooglePay"></a>
+                <a href="" target="_blank"><img id="applepay" src="../images/applepay.png" alt="ApplePay"></a>
+            </div>
+        </div>
     </div>
-    <!-- Specific payment methods -->
-    <div id="pay">
-        <a href="" target="_blank"><img src="../images/pay.png" alt=""></a>
-        <a href="" target="_blank"><img src="../images/venmo.png" alt="Venmo"></a>
-        <a href="" target="_blank"><img src="../images/googlepay.png" alt="GooglePay"></a>
-        <a href="" target="_blank"><img src="../images/applepay.png" alt="ApplePay"></a>
-    </div>
-    <!-- To pay using this site -->
-    <div id="form">
-        <label for="cname">Name on Card</label>
-        <input type="text" id="cname" name="cardname" placeholder="Name">
-        <label for="ccnum">Payment Info</label>
-        <input type="text" id="ccnum" name="cardnumber" placeholder="2222 2222 2222 2222">
-        <input type="text" id="expmonth/year" name="expmonth/year" placeholder="MM/YY">
-        <input type="text" id="cvc" name="cvc" placeholder="CVC#">
-        <label for="zipcode">Zip Code</label>
-        <input type="text" id="zipcode" name="zipcode">
-        <label for="email">E-mail</label>
-        <input type="text" id="email" name="email">
-        <button>Submit</button>
-    </div>
-
+    <script src="../js/main.js"></script>
 </body>
-<script src="../js/main.js"></script>
+
 </html>
