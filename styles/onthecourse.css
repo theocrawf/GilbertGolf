@@ -1,7 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+/*---------media query for mobile view--------*/
+@media only screen and (max-width: 1000px){
+
+}
+
+
+
 body{
-    background-color: #5e5e5e;
+    background-color: #3f3f3f;
     margin: 0;
 }
+
+.name{
+    margin-top: 200px;
+}
 h2{
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #8F8873;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Asap', sans-serif;
+    text-transform: uppercase;
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.schedule{
+    margin-top: 50px;
+    padding: 30px;
+}
+
+#titles{
+    display: flex;
+    color: #8F8873;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 36px;
+    font-weight: light;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 0;
+    /* padding-top: 150px; */
+}
+
+
+.line{
+border: 1px solid #8F8873;
+margin-top: 20px;
+}
+
+.schedule-image{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
 }
