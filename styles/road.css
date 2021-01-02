@@ -74,6 +74,7 @@
     margin-left: 70px;
 }
 
+
 } 
 
 
@@ -199,4 +200,11 @@ body{
 
 .bottom-content p, .my-story p{
     text-indent: 20px;
+}
+
+.gil{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.austin{
+    font-family: 'Roboto', sans-serif;
 }
