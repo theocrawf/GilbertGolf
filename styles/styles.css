@@ -119,7 +119,7 @@
     height: 250px;   
 }
 #road img{
-    max-width: 100%;
+    width: 100%;
     height: 200px;
     filter: brightness(65%);
 }
@@ -131,29 +131,29 @@
 }
 
 .road-container{
-    width: 85%;
-    height: auto;
+    width: 80%;
     margin-left: 10px;
     padding: 5px;
-    position: absolute;
-    top: 245px;
-    left: 0;
-   
+    transform: translate(0px, -210px);
 }
+
+#blooptop{
+    transform: translate(-90px, -180px);
+}
+
 #road p{
     font-size: 13px;
     text-shadow: -2px -2px 5px rgba(0,0,0,0.5);
     width: 50%;
-    /* background-color: #232323;
-    opacity: 0.7; */
+    padding-bottom: 20px;
 }
 .readmore{
     padding: 7px;
     border-radius: 5px;    
-    margin-top: 20px;
     height: 30px;
     width: 80px;
     font-size: 10px;
+    /* margin-top: -50px; */
 }
 
 /*------------certified section----------------*/
@@ -180,8 +180,7 @@
 .certified p{
     width: 100%;
     font-size: 14px;
-    /* background-color: #232323;
-    opacity: 0.6; */
+
 }
 #certified-button{
     margin-top: 20px;
@@ -204,14 +203,16 @@
 }
 .quote p{
     text-align: right;
-    /* transform: translate(180%, 250%); */
-    /* background-color: #232323;
-    opacity: 0.3; */
-    border: transparent;
-    border-radius: 5px;
     width: 50%;
    padding-top: 5px;
     
+}
+
+.quote p{
+    transform: translate(-12%, -220%);
+}
+#bloopbottom{
+    width: 40%;
 }
 
 /*sponsor section*/
@@ -298,7 +299,7 @@ padding: 5px;
 
 .footer{
     text-align: left;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 5px;
     font-size: 10px;
     margin-left: 10px;
@@ -348,7 +349,6 @@ padding: 5px;
     
 .navbar{
     overflow: hidden;
-    /* width: 100%; */
     z-index: 2;
     padding: 20px;
     display: flex;
@@ -437,7 +437,6 @@ padding: 5px;
 }
 
 .social-icons{
-   /* height: 50px; */
    width: 20%;
    height: 10%;
    padding-left: 0px;
@@ -470,14 +469,14 @@ padding: 5px;
     height: 55%;
     margin-left: 130px;
     padding: 5px;
-    margin-top: -405px;
-    /* position: absolute;
-    top: 100px;
-    left: 0; */
-   
+    margin-top: -405px;   
 }
 #road p{
     font-size: 22px;
+}
+
+.road-container img{
+   transform: translate(20px, -300px);
 }
 .readmore{
     padding: 12px;
@@ -489,7 +488,7 @@ padding: 5px;
 #certified{
     background-size: 80%;
     background-position: bottom;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 .certified{
@@ -515,19 +514,24 @@ padding: 5px;
 /* style for quote */
 #quote{
     background-size: 100%;
-    width: 100%;
     height: 620px;
     margin-top: -60px;
     margin-left: -10px;
     /* border-radius: 30px; */
 }
 .quote{
-    width: 50%;
-    transform: translate(85%, 340%);
+    width: 35%;
+    transform: translate(180%, 30%);
     font-size: 30px;
-    text-align: right;
+    text-align: center;
     letter-spacing: 4px;
     line-height: 60px;
+}
+.quote p{
+    transform: translate(-5%, -220%);
+}
+#bloopbottom{
+    width: 80%;
 }
 
 /*sponsor section*/
@@ -592,7 +596,7 @@ padding: 5px;
 
 .contact-bottom-words{
     margin-bottom: 0;
-    height: 450px;
+    height: auto;
     width: 80%;
 }
 
@@ -626,14 +630,13 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    /* width: 100%; */
 }
 
 /*--------- nav section------------ */
 .navbar{
     background-color: #232323;
-    /* overflow: hidden; */
-    /* width: 100%; */
+    /* overflow: hidden; 
+    width: 100%; */
     z-index: 2;
 }
 
