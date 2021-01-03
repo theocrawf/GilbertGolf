@@ -25,7 +25,6 @@
 }
 .my-story{
     padding: 0px;
-    /* margin-left: 90px; */
     align-items: center;
     font-size: 15px;
 }
@@ -35,12 +34,11 @@
 }
 .my-story img{
     width: 350px;
-    margin: 60px 0;
+    margin: 60px 30px 40px 20px;
 }
 .my-story-title{
     font-size: x-large;
     padding-bottom: 15px;
-    /* padding-left: 45px; */
     margin-top: 0px;
     margin-left: 10px;
 }
@@ -48,7 +46,6 @@
 .bottom{
     background-size: 75%;
     background-position: bottom right;
-    /* margin-right: -150px; */
 }
 
 .bottom-content{
@@ -78,10 +75,6 @@
 } 
 
 
-
-
-
-
 /*---------media query for desktop view---------*/
 @media only screen and (min-width: 1000px){
 
@@ -103,29 +96,30 @@
 
     .my-story{
         padding: 30px;
-        margin-left: 90px;
+        margin-left: 20px;
         align-items: center;
         font-size: 20px;
         display: flex;
         flex-direction: row;
     }
+
     .my-story-title{
         padding-bottom: 10px;
         padding-left: 45px;
         margin-top: 30px;
-        margin-left: 90px;
+        margin-left: 20px;
     }
     .my-story p{
         word-spacing: 2px;
-        width: 50%;
-        padding: 10px 20px;
-        display: flex;
-        flex-direction: column;
+        padding: 10px;
+    }
+    section{
+        width: 90%;
     }
     .my-story img{
         width: 550px;
         margin-top: -60px;
-        padding: 40px;
+        padding: 90px;
     }
 
     .bottom{
