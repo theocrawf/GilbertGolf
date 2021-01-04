@@ -7,24 +7,37 @@
 
 /*---------media query for mobile view--------*/
 @media only screen and (max-width: 1000px){
-    #titles ul{
+   .name{
+       margin-top: 50px;
+   }
+    .schedule, .stats{
         margin-top: 30px;
-        font-size: 26px;
-        font-weight: light;
-    }
-    .schedule{
-        margin-top: 50px;
         padding: 10px;
+    }
+    caption{
+        padding-bottom: 20px;
+    }
+    th{
+        border-bottom-left-radius: 15px;
+        padding: 2px;
     }
 
     .schedule-image{
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin: 40px 0;
     }
     .schedule-image img{
         width: 300px;
         height: 200px;
+    }
+
+    .contact-bottom-words{
+        margin-top: 40px;
+    }
+    .footer{
+        margin-left: 10px;
     }
 }
 
@@ -37,31 +50,36 @@
     }
 
     h2{
-        font-size: 40px;
-    }
-
-    .stats {
-        font-size: 30px;
-        margin-top: 70px;
-        text-align: center;
+        font-size: 36px;
     }
 
     .schedule{
-        margin-top: 50px;
-        padding: 30px;
-        font-size: 36px;
-        font-weight: light;
+        margin-top: 100px;
     }
-
-    .line{
-        margin-top: 20px;
-        margin-bottom: 50px;
-        }
+    caption{
+        font-size: 24px;
+        font-weight: 600; 
+        padding-bottom: 55px;
+    }
+    th{
+        font-size: 24px;
+        font-weight: lighter;
+        padding-bottom: 5px;
+        border-bottom-left-radius: 20px;
+        margin-bottom: 30px;
+    }
+   
+    td{
+        font-size: 16px;
+        padding: 10px 25px 10px 15px;
+        line-height: 31.06px;
+    }
 
         .schedule-image{
             justify-content: center;
             align-items: center;
             text-align: center;
+            margin: 150px;
         }
         .schedule-image img{
             width: 500px;
@@ -69,11 +87,11 @@
         }
 
         .contact-bottom-words{
-            margin-top: -180px;
+            margin-top: -100px;
         }
         .footer{
-            width: 30%;
-            padding-top: 160px;
+            padding-top: 200px;
+            margin-left: 35px;
         }
 }
 
@@ -84,11 +102,8 @@
 body{
     background-color: #3f3f3f;
     margin: 0;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-family: 'Roboto', sans-serif;
     padding: 0;
 }
-
 
 h2{
     font-family: 'Bai Jamjuree', sans-serif;
@@ -98,24 +113,32 @@ h2{
     text-align: center;
 }
 
-.stats {
+caption {
+    color: white;
     font-family: 'Asap', sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
 }
-
-.schedule{
-    display: flex;
+th{
     color: #8F8873;
     font-family: 'Bai Jamjuree', sans-serif;
-    list-style-type: none;
-    justify-content: space-evenly;
+    border-bottom: 1px solid #8F8873;
+    text-align: left;
 }
-
-.line{
-border: 1px solid #8F8873;
-margin: 10px;
+td{
+    color: white;
+    font-family: 'PT sans', sans-serif;
+    border: 1px solid #8F8873;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+ #first td{
+     margin-top: 50px;
+ }
+.schedule, .stats{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .gil{
@@ -128,5 +151,4 @@ margin: 10px;
 
 .footer{
     text-align: left;
-    margin-left: 35px;
 }

@@ -1,3 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/*---------media query for mobile view--------*/
+@media only screen and (max-width: 1000px){
+    .lessons img{
+        width: 300px;
+    }
+}
+
+
+/*---------media query for desktop view--------*/
+@media only screen and (min-width: 1000px){
+
+    h2{
+        font-size: 40px;
+        margin-top: 100px;
+    }
+
+    .lessons{
+        margin: 50px;
+        font-size: 20px;
+        text-align: left;
+        justify-content: center;
+    }
+    .lessons p{
+       padding: 20px;
+    }
+    .lessons li{
+        text-decoration: none ;
+    }
+    .lessons img{
+        width: 400px;
+    }
+
+    
+}
+/*---------outside of media queries--------*/
+body{
+    background-color: #3f3f3f;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+
 h2{
-    font-size: 50px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #8F8873;
+    text-align: center;
+}
+
+
+.footer{
+    text-align: left;
 }
