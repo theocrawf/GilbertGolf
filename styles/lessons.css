@@ -2,13 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
-}
+    /* border: 1px solid red;*/
+} 
 
 /*---------media query for mobile view--------*/
 @media only screen and (max-width: 1000px){
-    .lessons img{
-        width: 300px;
+    .content img{
+        width: 200px;
+        margin-left: 100px;
+        padding-bottom: 20px;
+    }
+    h2{
+        font-size: 30px;
+        margin-top: 80px;
+    }
+
+    .lessons{
+        margin: 25px;
+        margin-top: 10px;
+        font-size: 16px;
+        /* float: left; */
+    }
+    .lessons p{
+        padding-top: 15px;
+    }
+    .lessons li{
+        padding-left: 20px;
     }
 }
 
@@ -22,19 +41,38 @@
     }
 
     .lessons{
-        margin: 50px;
+        width: 50%;
+        margin-left: 100px;
+        margin-top: 100px;
         font-size: 20px;
-        text-align: left;
-        justify-content: center;
+        float: left;
     }
     .lessons p{
        padding: 20px;
+       text-align: left;
+
     }
     .lessons li{
-        text-decoration: none ;
+        text-decoration: none;
+        text-align: left;
+        padding-left: 50px;
     }
-    .lessons img{
+
+    .content{
+        margin-top: 60px;
+        text-align: center;
+        justify-content: center;
+    }
+    .content img{
         width: 400px;
+    }
+  
+    .contact-bottom-words{
+        margin-top: -90px;
+    }
+    .footer{
+        padding-top: 200px;
+        margin-left: 35px;
     }
 
     
@@ -43,11 +81,8 @@
 body{
     background-color: #3f3f3f;
     margin: 0;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-family: 'Roboto', sans-serif;
     padding: 0;
 }
-
 
 h2{
     font-family: 'Bai Jamjuree', sans-serif;
@@ -57,6 +92,10 @@ h2{
     text-align: center;
 }
 
+
+.lessons{
+    font-family: 'Roboto', sans-serif;
+}
 
 .footer{
     text-align: left;

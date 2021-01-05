@@ -12,11 +12,11 @@
 @media only screen and (max-width: 1000px){
 
 .thanktext{
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 15px;
 }
 .thanktext p{
-   padding: 15px 0 0;
+   padding: 20px 0 0;
    text-indent: 10px;
 }
 .title{
@@ -32,7 +32,8 @@ fieldset{
 form{
     text-align: center;
     font-size: 10px;
-    margin: auto;
+    margin-left: 15px;
+    padding-bottom: 10px;
 }
 
 form label{
@@ -59,6 +60,11 @@ button{
     margin-left: 10px;
 }
 
+.orbutton{
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+}
 .pay{
     margin: 0;
     display: flex;
@@ -73,9 +79,14 @@ button{
     height: 40px;
 }
 
-#googlepay, #applepay{
+#googlepay{
     width: 70px;
     height: 70px;
+}
+#applepay{
+    width: 70px;
+    height: 65px;
+    margin-top: 2px;
 }
 #cash, #venmo{
     margin-top: 15px;
@@ -118,6 +129,7 @@ button{
     }
 
     .payment{
+        margin: 5px;
         display: flex;
         flex-direction: column;
         width: 50%;
@@ -157,25 +169,34 @@ button{
         font-size: large;
         margin: 20px 0 0 10px;
     }
+    .orbutton img{
+        margin-top: 250px;
+        padding-left: 65px;
+    }
 
     .pay{
-        margin: 0;
+        margin-top: 25px;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
     .pay a{
         justify-content: space-around;
-        padding: 5%;
+        padding: 15px;
     }
     .pay img{
-        width: 40px;
-        height: 50px;
+        width: 45px;
+        height: 55px;
     }
 
-    #googlepay, #applepay{
+    #googlepay{
         width: 70px;
         height: 70px;
+    }
+    #applepay{
+        width: 70px;
+        height: 65px;
+        margin-top: 2px;
     }
     #cash, #venmo{
         padding-top: 15px;
