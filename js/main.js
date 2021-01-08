@@ -33,36 +33,6 @@ function menutoggle(){
     }
 }
 
-// //get modal element
-// var modal = document.getElementById('myModal');
-// //get open modal button
-// var share = document.getElementById('share');
-// //get close button
-// var closeBtn = document.getElementsByClassName('closeBtn')[0];
-
-// //Listen for open click
-// share.addEventListener('click', openModal);
-// //Listen for close click
-// closeBtn.addEventListener('click', closeModal);
-// //Listen for outside click
-// window.addEventListener('click', outsideClick);
-
-// //Function for open modal 
-// function openModal(){
-//     modal.style.display = 'block';
-// }
-// //Function for close modal 
-// function closeModal(){
-//     modal.style.display = 'none';
-// }
-// //Function to close modal if outside click
-// function outsideClick(e){
-//     if(e.target == modal){
-//     modal.style.display = 'none';
-//     }
-// }
-
-
 
 //Bootstrap modal copied message
 function myFunction() {

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GilbertMendezGolf</title>
+    <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'>
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/onthecourse.css">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-5.15.1-web/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Arapey:wght@400&family=Asap:wght@400&family=Bai+Jamjuree:wght@200&family=Roboto:wght@100&family=PT+Sans:wght@400&display=swap" rel="stylesheet">
 </head>
@@ -24,7 +26,35 @@
         </ul>
         <img src="../images/menuwhite.png" class="menu-icon" onclick="menutoggle()">
           <div class="buttons">
-            <a href="" target="_blank"><button id="share">Share</button></a>
+            <div class="container d-flex justify-content-center"> <button type="button" id="share" data-toggle="modal" data-target="#myModal"> Share</button> </div>
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                      <div class="modal-content col-12">
+                          <div class="modal-header">
+                              <h5 class="modal-title">Share</h5> <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                          </div>
+                          <div class="modal-body">
+                              <div class="icon-container1 d-flex">
+                                  <div class="smd"><a href="https://twitter.com/intent/tweet?url=https://www.gilmendezgolf.com&text="><i class=" img-thumbnail fab fa-twitter fa-2x" style="color:#4c6ef5;background-color: aliceblue"></i></a>
+                                      <p>Twitter</p>
+                                  </div>
+                                  <div class="smd"><a href="https://www.facebook.com/sharer/sharer.php?u=www.gilmendezgolf.com"><i class="img-thumbnail fab fa-facebook fa-2x" style="color: #3b5998;background-color: #eceff5;"></i></a>
+                                      <p>Facebook</p>
+                                  </div>
+                                  <div class="smd"><a href="mailto:%7Bemail_address%7D?subject=Gilbert%20Mendez%20Golf&body=https://gilmendezgolf.com%20Please%20check%20out%20my%20website" target="_blank" rel="nofollow"><i class="img-thumbnail fas fa-envelope fa-2x" style="color: white;background-color: orange;"></i></a>
+                                    <p>Email</p>
+                                </div>
+                                <div class="smd"><a href="whatsapp://send?text=https://www.gilmendezgolf.com" target="_blank" rel="nofollow"><i class="img-thumbnail fab fa-whatsapp fa-2x" style="color: #eceff5;background-color: limegreen"></i></a>
+                                  <p>WhatsApp</p>
+                                </div>
+                              </div>
+                            </div>
+                          <div class="modal-footer"> <label style="font-weight: 600">Page Link <span class="message"></span></label><br />
+                              <div class="row"> <input class="col-10 ur" type="url" value="https://www.gilmendezgolf.com" id="myInput" aria-describedby="inputGroup-sizing-default" style="height: 40px;"> <button class="cpy" onclick="myFunction()"><i class="far fa-clone"></i></button> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
             <a href="./donate.html" target="_blank"><button id="donate">Donate</button></a>
           </div>
     </div>
@@ -187,6 +217,8 @@
     </div>
 
 <script src="../js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js'></script>
 
 </body>
 </html>
