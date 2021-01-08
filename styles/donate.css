@@ -253,3 +253,7 @@ button{
   fieldset{
       border: none;
   }
+
+  #cash:hover, #venmo:hover{
+      opacity: 30%;
+  }
