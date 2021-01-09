@@ -17,7 +17,7 @@
 }
 .thanktext p{
    padding: 20px 0 0;
-   text-indent: 10px;
+   /* text-indent: 10px; */
 }
 .title{
     font-size: 28px;
@@ -125,7 +125,7 @@ form input{
     .thanktext p{
         margin-top: 20px;
         padding: 10px 30px;
-        text-indent: 15px;
+        /* text-indent: 15px; */
         font-weight: 500;
     }
 
