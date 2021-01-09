@@ -103,12 +103,13 @@ button{
     #container{
         display: flex;
         flex-direction: row;
-        padding: 10px;
+        padding: 40px;
+        margin-left: 50px;
     }
 
     #thankyou{
         margin: 5px;
-        /* padding: 40px; */
+        padding: 40px;
         width: 50%;
     }
     .thanktext{
@@ -170,7 +171,7 @@ button{
         margin: 20px 0 0 10px;
     }
     .orbutton img{
-        margin-top: 250px;
+        margin-top: 280px;
         padding-left: 65px;
     }
 
@@ -256,4 +257,8 @@ button{
 
   #cash:hover, #venmo:hover{
       opacity: 30%;
+  }
+
+  .methods{
+      text-align: center;
   }

@@ -35,7 +35,7 @@ function menutoggle(){
 
 
 //Bootstrap modal copied message
-function myFunction() {
+function myCopyFunction() {
 var copyText = document.getElementById('myInput');
 copyText.select();
 copyText.setSelectionRange(0, 99999)

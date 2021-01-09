@@ -125,13 +125,13 @@
 #road h2{
     font-size: 22px;
     letter-spacing: 1px;
-    padding-bottom: 20px;
     padding-top: 10px;
 }
 
 .road-container{
     width: 80%;
     margin-left: 10px;
+    margin-top: 10;
     padding: 5px;
     transform: translate(0px, -210px);
     position: absolute;
@@ -139,7 +139,7 @@
 }
 
 .road-container img{
-    transform: translate(-40px, -180px);
+    transform: translate(-40px, -150px);
     position: relative;
     z-index: -1;
 }
@@ -148,7 +148,6 @@
     font-size: 13px;
     text-shadow: -2px -2px 5px rgba(0,0,0,0.5);
     width: 50%;
-    padding-bottom: 20px;
 }
 .readmore{
     padding: 7px;
@@ -156,7 +155,6 @@
     height: 30px;
     width: 80px;
     font-size: 10px;
-    /* margin-top: -50px; */
 }
 
 /*------------certified section----------------*/
@@ -167,8 +165,8 @@
     height: 250px;
 }
 .certified{
-    width: 80%;
-    height: auto;
+    width: 90%;
+    /* height: 75%; */
     text-align: right;
     margin-top: 10px;  
     float: right;
@@ -178,7 +176,7 @@
 #certified h2{
     font-size: 22px;
     letter-spacing: 1px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .certified p{
     width: 100%;
@@ -186,7 +184,7 @@
 
 }
 #certified-button{
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 /* style for quote */
@@ -257,12 +255,11 @@
 }
 .contact-bottom{   
     text-align: right;
-    line-height: 60px;
-    margin-bottom: 0px;
-    padding-bottom: 15px;
+    margin-bottom: 20px;   
+    padding-top: 40px;
     display: flex;
     width: 100%;
-    height: 40%;
+    height: 250px;
 }
 .gil, .austin{
     letter-spacing: 4px;
@@ -271,19 +268,19 @@
 .social-bottom{
     width: 100%;
     margin: 0;
-    transform: translate(0, 40%);
+    /* transform: translate(0, 40%); */
 }
 .social-bottom a{
 padding: 5px;
 }
 
 .contact-bottom-words{
-    background-size: 100%;
+    background-size: 80%;
     background-position: bottom;
-    margin-bottom: 0;
-    height: auto;
+    margin-top: 100px;
+    /* height: auto; */
     width: 80%;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 #insta{
@@ -291,19 +288,17 @@ padding: 5px;
     height: 35px;
 }
 #fb{
-    width: 37px;
-    height: 34px;
-    padding-bottom: 3px;
+    width: 40px;
+    height: 35px;
 }
 #email{
-    width: 37px;
-    height: 34px;
-    padding-bottom: 4px;
+    width: 40px;
+    height: 35px;
 }
 
 .footer{
     text-align: left;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 5px;
     font-size: 10px;
     margin-left: 10px;
@@ -447,8 +442,8 @@ padding: 5px;
 .social-icons{
    width: 20%;
    height: 10%;
-   padding-left: 0px;
-   margin-bottom: 20px;
+   padding-top: 60px;
+   margin-top: 40px;
 }
 
 #instagram, #facebook{
@@ -474,10 +469,10 @@ padding: 5px;
 
 .road-container{
     width: 25%;
-    height: 55%;
+    height: 35%;
     margin-left: 130px;
     padding: 5px;
-    margin-top: -405px;   
+    margin-top: -455px;   
     position: absolute;
     z-index: 1;
 }
@@ -498,10 +493,10 @@ padding: 5px;
 
 /*------------certified section--------------*/
 #certified{
-    background-size: 80%;
+    background-size: 70%;
     background-position: bottom;
     width: 100%;
-    height: 100vh;
+    height: 700px;
 }
 .certified{
     width: 70%;
@@ -509,7 +504,7 @@ padding: 5px;
     text-align: right;
     margin-right: 0;  
     font-size: 22px;
-    transform: translate(22%, 50%);
+    transform: translate(22%, 40%);
 }
 #certified h2{
     font-size: 36px;
@@ -520,35 +515,36 @@ padding: 5px;
     width: 100%;
 }
 #certified-button{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 /* style for quote */
 #quote{
     background-size: 100%;
-    height: 620px;
+    height: 700px;
     margin-top: -60px;
     margin-left: -10px;
     /* border-radius: 30px; */
 }
 .quote{
     width: 35%;
-    transform: translate(180%, 30%);
-    font-size: 30px;
-    text-align: center;
+    height: auto;
+    transform: translate(170%, 20%);
+    font-size: 40px;
+    text-align: right;
     letter-spacing: 4px;
     line-height: 60px;
 }
 .quote p{
-    transform: translate(-5%, -220%);
+    transform: translate(-25%, -180%);
 }
 #bloopbottom{
-    width: 80%;
+    width: 85%;
 }
 
 /*sponsor section*/
 .sponsor-container{
-    height: 1000px;
+    /* height: 1000px; */
     margin: 0;
     width: auto;
 }
@@ -588,13 +584,20 @@ padding: 5px;
     text-align: left; */
 }
 .contact-bottom{   
+    /* background-size: 80%; */
+    background-position: bottom right;
+    margin: 400px 5px 0 300px;
+    padding-top: 250px;
     text-align: right;
     line-height: 150px;
-    transform: translate(20%, 70%);
+    /* top: 50%;
+    left: 50%;
+    transform: translate(20%, 10%); */
     padding: 0;
     display: flex;
     width: 80%;
-    height: 45%;
+    height: 600px;
+    
 }
 .gil, .austin{
     letter-spacing: 4px;
@@ -610,9 +613,8 @@ padding: 5px;
 }
 
 .contact-bottom-words{
-    margin-bottom: 0;
-    height: auto;
-    width: 80%;
+    width: 75%;
+    padding-top: 30px;
 }
 
 #insta, #fb{
@@ -626,10 +628,10 @@ padding: 5px;
     margin-right: 2px;
 }
  .footer{
+     width: 20%;
      text-align: left;
-     margin: 0;
-     padding-top: 55px;
      margin-left: 40px;
+     margin-top: -50px;
  }
 
 }
@@ -773,7 +775,7 @@ The sticky class is added to the navbar with JS when it reaches its scroll posit
 }
 /*Top padding added to page content to prevent sudden quick movement (as the nav bar gets a new position at the top of the page)*/
 .sticky + body{
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 /*---------- top section-------------- */
@@ -894,7 +896,7 @@ text-align: left;
 }
 .contact-bottom{   
     text-align: right;
-    display: flex;
+    /* display: flex; */
 }
 .gil, .austin{
     font-family: 'Bai Jamjuree';
@@ -905,7 +907,7 @@ text-align: left;
 .contact-bottom-words{
     background-image: url(../images/GM.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
 }
 button{ 
     cursor: pointer;

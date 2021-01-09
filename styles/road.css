@@ -147,12 +147,7 @@
 }
 
 .contact-bottom-words{
-    margin-left: 200px;
-    margin-top: -175px;
-}
-
-.footer{
-    padding-top: 170px;
+    margin-left: 280px;
 }
 
 }
@@ -174,7 +169,7 @@ body{
 
 .top img{
     width: 100%;
-    filter: brightness(70%);
+    /* filter: brightness(70%); */
 }
 .filler{
     max-width: 100%;
