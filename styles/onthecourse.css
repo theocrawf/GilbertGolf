@@ -8,7 +8,7 @@
 /*---------media query for mobile view--------*/
 @media only screen and (max-width: 1000px){
    .name{
-       margin-top: 50px;
+       margin-top: 20px;
    }
     .schedule, .stats{
         margin-top: 30px;
@@ -108,6 +108,10 @@ h2{
     text-transform: uppercase;
     color: #8F8873;
     text-align: center;
+}
+
+#navbar{
+    position: static;
 }
 
 caption {

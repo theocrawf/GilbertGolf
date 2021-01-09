@@ -1,6 +1,6 @@
-/* *{
+*{
     border: 1px solid red;
-}  */
+} 
 
 *{
     margin: 0;
@@ -53,12 +53,12 @@ form input{
 #exp, #cvc{
     width: 42%;
 }
-button{
+/* button{
     width: 90%;
     height: 40px;
     font-size: medium;
     margin-left: 10px;
-}
+} */
 
 .orbutton{
     text-align: center;

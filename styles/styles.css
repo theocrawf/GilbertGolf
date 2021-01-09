@@ -39,7 +39,7 @@
       }
     .nav-links{
        
-        width: 90%;
+        width: 70%;
         justify-content: center;
         align-items: center;
         text-align: right;
@@ -310,7 +310,7 @@ padding: 5px;
 @media only screen and (max-width: 1000px){
         ul{
             position: absolute;
-            top: 50px;
+            top: 80px;
             left: 60px;
             background: #232323;
             width: 70%;
@@ -320,6 +320,8 @@ padding: 5px;
             border: transparent;
             border-radius: 5px;
             margin-top: 5px;
+            text-align: center;
+            padding-right: 10px;
         }
          ul li{
             display: block;
@@ -729,6 +731,10 @@ button:focus {
 }
 
 /*--------- nav section------------ */
+#navbar{
+    position: static;
+}
+
 .navbar{
     background-color: #232323;
     overflow: hidden; 
