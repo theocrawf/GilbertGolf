@@ -495,6 +495,7 @@ padding: 5px;
     padding: 12px;
     border-radius: 7px;    
     margin-top: 40px;
+   
 }
 
 /*------------certified section--------------*/
@@ -522,6 +523,8 @@ padding: 5px;
 }
 #certified-button{
     margin-top: 60px;
+    padding: 15px;
+    font-size: 16px;
 }
 
 /* style for quote */
@@ -647,10 +650,10 @@ padding: 5px;
 body{
     color: white;
     background-color: #3f3f3f;
-    font-family: 'Arapey', serif;
+    /* font-family: 'Arapey', serif;
     font-family: 'Asap', sans-serif;
     font-family: 'Bai Jamjuree', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; */
     margin: 0;
     padding: 0;
 }
@@ -841,13 +844,15 @@ opacity: 30%;
 }
 #road p{
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    font-weight: 500;
 }
 .readmore{
-    background-color: #CB5D0D;
-    color: white;
+    /* background-color: #CB5D0D;
+    color: white; */
     font-family: 'Asap', sans-serif;
-    border: none; 
+    border:  5px solid #CB5D0D;
+    background-color: transparent;
+    color: #CB5D0D;
 }
 .readmore:hover{
     opacity: 30%;

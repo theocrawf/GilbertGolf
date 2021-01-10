@@ -81,6 +81,7 @@
 
     .top img{
         margin-top: 90px;
+        height: 70vh;
     }
     .pga{
         padding-top: 50px;
@@ -170,7 +171,6 @@ body{
 
 .top img{
     width: 100%;
-    /* filter: brightness(70%); */
 }
 .filler{
     max-width: 100%;
@@ -188,6 +188,7 @@ body{
 .pga h1, .my-story h1{
     font-family: 'Arapey', serif;
 }
+
 
 .bottom-content p, .my-story p{
     text-indent: 20px;

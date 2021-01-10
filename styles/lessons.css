@@ -38,6 +38,8 @@
     h2{
         font-size: 40px;
         margin-top: 100px;
+        text-align: center;
+       width: 95%;
     }
 
     .lessons{
@@ -87,7 +89,6 @@ h2{
     font-weight: lighter;
     text-transform: uppercase;
     color: #8F8873;
-    text-align: center;
 }
 
 #navbar{
