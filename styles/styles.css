@@ -594,7 +594,7 @@ padding: 5px;
 }
 .contact-bottom{   
     background-size: 100%;
-    margin: 400px 5px 0 0px;
+    margin: 400px 5px 0 290px;
     padding-top: 250px;
     text-align: right;
     line-height: 150px;
@@ -618,9 +618,9 @@ padding: 5px;
 }
 
 .contact-bottom-words{
-    width: 75%;
+    width: 100%;
     padding-top: 30px;
-    margin-right: 25px;
+    margin-right: 55px;
 }
 
 #insta, #fb{
@@ -637,7 +637,8 @@ padding: 5px;
      width: 40%;
      text-align: left;
      margin-left: 40px;
-     margin-top: -50px;
+     padding-bottom: 20px;
+     /* margin-top: -50px; */
  }
 
 }
