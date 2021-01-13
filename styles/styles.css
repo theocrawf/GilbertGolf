@@ -501,10 +501,10 @@ padding: 5px;
 
 /*------------certified section--------------*/
 #certified{
-    background-size: 70%;
+    background-size: 80%;
     background-position: bottom;
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 .certified{
     width: 70%;
@@ -512,7 +512,7 @@ padding: 5px;
     text-align: right;
     margin-right: 0;  
     font-size: 22px;
-    transform: translate(22%, 40%);
+    transform: translate(22%, 25%);
 }
 #certified h2{
     font-size: 36px;
@@ -595,7 +595,7 @@ padding: 5px;
 }
 .contact-bottom{   
     background-size: 100%;
-    margin: 400px 5px 0 290px;
+    margin: 400px 10px 0 270px;
     padding-top: 250px;
     text-align: right;
     line-height: 150px;
@@ -621,7 +621,7 @@ padding: 5px;
 .contact-bottom-words{
     width: 100%;
     padding-top: 30px;
-    margin-right: 55px;
+    margin-right: 70px;
 }
 
 #insta, #fb{
