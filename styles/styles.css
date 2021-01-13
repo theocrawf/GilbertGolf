@@ -77,11 +77,12 @@
     display: block;
 }
 .name{
-    width: 100%;
+    /* width: 95%; */
     font-size: 15px;
     margin: 0px;
     padding-top: 45px;
     text-align: center;
+    padding-left: 30px;
 }
 
 .follow-container{
@@ -164,12 +165,12 @@
 #certified{
     background-size: 80%;
     background-position: bottom;
-    /* width: 100%; */
-    height: 250px;
+    width: 100%;
+    height: 220px;
 }
 .certified{
     width: 90%;
-    /* height: 75%; */
+    height: 75%;
     text-align: right;
     margin-top: 10px;  
     float: right;
@@ -187,14 +188,14 @@
 
 }
 #certified-button{
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 /* style for quote */
 #quote{
     background-size: 100%;
     height: 200px;
-    margin-top: -20px;
+    margin-top: 50px;
 }
 .quote{
     font-size: 10px;
@@ -258,10 +259,12 @@
     transform: translate(0,85%);
 }
 .contact-bottom{   
-    text-align: right;
-    margin-bottom: 20px;   
-    padding-top: 40px;
+    padding-left: 50px; 
+    padding-top: 60px;
+    margin-right: 10px;
     display: flex;
+    justify-content: right;
+    text-align: right;
     width: 100%;
     height: 250px;
 }
@@ -279,12 +282,10 @@ padding: 5px;
 }
 
 .contact-bottom-words{
-    background-size: 80%;
-    background-position: bottom;
-    margin-top: 100px;
-    /* height: auto; */
-    width: 80%;
-    padding-right: 20px;
+    background-size: 100%;
+    margin-top: 40px;
+    width: 100%;   
+    padding-right: 5px;
 }
 
 #insta{
