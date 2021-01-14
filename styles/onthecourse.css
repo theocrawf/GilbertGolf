@@ -120,6 +120,7 @@ caption {
     text-transform: uppercase;
     text-align: center;
     font-weight: 500;
+    caption-side: top;
 }
 th{
     color: #8F8873;
