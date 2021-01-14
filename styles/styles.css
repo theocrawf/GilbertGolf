@@ -1,6 +1,6 @@
-/* *{
+*{
     border: 1px solid red;
-}  */
+} 
 
 *{
     margin: 0;
@@ -201,8 +201,8 @@
     font-size: 10px;
     letter-spacing: 4px;
     line-height: 22px;   
-    width: 90%;
-    margin-top: 35px;
+    width: 80%;
+    margin-top: 5px;
 }
 .quote p{
     text-align: right;
@@ -217,6 +217,7 @@
 #bloopbottom{
     width: 40%;
     margin-left: 20px;
+    /* padding-bottom: -50px; */
 }
 
 /*sponsor section*/
@@ -462,7 +463,7 @@ padding: 5px;
 /*--------------road section---------*/
 #road{
     width: 100%;
-    height: 623px;
+    height: 70vh;
 }
 #road img{
     margin-left: -10px;
@@ -475,11 +476,11 @@ padding: 5px;
 }
 
 .road-container{
-    width: 25%;
+    width: 35%;
     height: 35%;
-    margin-left: 130px;
+    margin-left: 55px;
     padding: 5px;
-    margin-top: -455px;   
+    margin-top: -390px;   
     position: absolute;
     z-index: 1;
 }
@@ -488,7 +489,7 @@ padding: 5px;
 }
 
 .road-container img{
-   transform: translate(20px, -350px);
+   transform: translate(20px, -390px);
    position: relative;
    z-index: -1;
 }
@@ -539,8 +540,8 @@ padding: 5px;
 .quote{
     width: 35%;
     height: auto;
-    transform: translate(170%, 20%);
-    font-size: 40px;
+    transform: translate(180%, 20%);
+    font-size: 25px;
     text-align: right;
     letter-spacing: 4px;
     line-height: 60px;
@@ -849,7 +850,7 @@ opacity: 30%;
     /* background-color: #CB5D0D;
     color: white; */
     font-family: 'Asap', sans-serif;
-    border:  5px solid #CB5D0D;
+    border:  2px solid #CB5D0D;
     background-color: transparent;
     color: #CB5D0D;
 }
