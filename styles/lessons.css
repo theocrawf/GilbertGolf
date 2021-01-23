@@ -69,6 +69,10 @@
     .content img{
         width: 400px;
     }
+
+    .contact-bottom-words{
+        margin-left: -215px;
+    }
   
     .footer{
       margin-top: -50px;
