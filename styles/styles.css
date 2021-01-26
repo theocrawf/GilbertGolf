@@ -345,6 +345,21 @@ padding: 5px;
         }
 }
 
+/*--------sticky nav bar------------*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  #navbar{
+      overflow: hidden;
+  }
+/*-------------------------------------------------------------------*/
+
 /* desktop view */
 @media only screen and (min-width: 1000px){
     /*-----------nav section----------*/
@@ -355,7 +370,6 @@ padding: 5px;
     }
     
 .navbar{
-    /* overflow: hidden; */
     z-index: 2;
     padding: 20px;
     display: flex;
