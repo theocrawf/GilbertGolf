@@ -148,6 +148,7 @@ td{
 
 td a{
     color: white;
+    text-decoration: underline;
 }
 td a:hover{
     color: #8F8873;
