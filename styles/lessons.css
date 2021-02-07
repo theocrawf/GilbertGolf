@@ -39,7 +39,8 @@
     h2{
         font-size: 40px;
         margin-top: 100px;
-        text-align: center;
+        text-align: left;
+        margin-left: 120px;
        width: 95%;
     }
 
@@ -53,12 +54,13 @@
     .lessons p{
        padding: 20px;
        text-align: left;
+       margin-top: -40px;
 
     }
     .lessons li{
         text-decoration: none;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 20px;
     }
 
     .content{
@@ -102,6 +104,7 @@ h2{
 
 .lessons{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .footer{
