@@ -145,7 +145,7 @@ td{
     text-transform: uppercase;
     font-weight: lighter;
 }
-#stats td:last-child:hover{
+#schedule td:last-child:hover{
     background-color: #8F8873;
 }
 td a{
