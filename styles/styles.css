@@ -837,6 +837,37 @@ button:focus {
     text-decoration: none;
 }
 
+.live {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-right: 1em;
+    border-radius: 5px;
+    line-height: 1.9em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
+  
+  #live {
+     background: #f00;
+     text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.1);
+     background: -moz-linear-gradient(90deg, rgba(210, 20, 20) 30%, rgba(250, 20, 20) 70%);
+  background: -webkit-linear-gradient(90deg, rgba(210, 20, 20) 30%, rgba(250, 20, 20) 70%);
+  background: -o-linear-gradient(90deg, rgba(210, 20, 20) 30%, rgba(250, 20, 20) 70%);
+  background: -ms-linear-gradient(90deg, rgba(210, 20, 20) 30%, rgba(250, 20, 20) 70%);
+  background: linear-gradient(0deg, rgba(210, 20, 20) 30%, rgba(250, 20, 20) 70%);
+  }
+
 #share{
     font-family: 'Roboto', sans-serif;
     border: solid 1px;
