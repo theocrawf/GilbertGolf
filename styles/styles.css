@@ -772,7 +772,7 @@ button:focus {
     text-decoration: none;
 }
 
-button.live {
+#live {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -781,7 +781,7 @@ button.live {
     display: inline-block;
     position: relative;
     text-align: center;
-    background: #f00;
+    background-color: #f00;
     color: #fff;
     margin-right: 1em;
     border-radius: 4px;
