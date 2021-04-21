@@ -772,7 +772,7 @@ button:focus {
     text-decoration: none;
 }
 
-.live {
+button.live {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
