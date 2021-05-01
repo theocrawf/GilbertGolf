@@ -51,19 +51,27 @@
         width: 30px;
         height: 25px;
         margin-top: 15px;
+        margin-right: 5px;
       }
     
     #share{
         height: 30px;
         width: 70px;
-        margin-left: 0px;
+        margin: 0px;
         padding: 5px;
     }
     #donate{
         height: 30px;
-        width: 90px;
-        margin: 5px;
+        width: 70px;
+        margin-left: 15px;
+        margin-top: 5px;
         padding: 5px;
+    }
+
+    .next{
+        position: absolute;
+        transform: translate(20px, 68px);
+        /* padding-top: 15px; */
     }
     .next a{
         color: white;
@@ -894,7 +902,7 @@ opacity: 30%;
 }
 #road p{
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 .readmore{
     /* background-color: #CB5D0D;
