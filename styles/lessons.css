@@ -40,21 +40,24 @@
         font-size: 40px;
         margin-top: 100px;
         text-align: left;
-        margin-left: 120px;
+        margin-left: 100px;
        width: 95%;
     }
 
     .lessons{
         width: 50%;
         margin-left: 100px;
-        margin-top: 100px;
+        margin-top: 40px;
         font-size: 20px;
         float: left;
     }
     .lessons p{
+        text-align: left;
+    }
+    .lesson-list {
        padding: 20px;
        text-align: left;
-       margin-top: -40px;
+       margin-bottom: 40px;
 
     }
     .lessons li{
@@ -94,7 +97,7 @@ body{
 h2{
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: lighter;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #8F8873;
 }
 
@@ -105,6 +108,9 @@ h2{
 .lessons{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+.lesson-list{
+    font-family: 'PT sans', sans-serif;
 }
 
 .footer{

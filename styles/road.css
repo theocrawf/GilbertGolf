@@ -84,16 +84,16 @@
         height: 70vh;
     }
     .pga{
-        padding-top: 50px;
-        letter-spacing: 10px;
-        padding-bottom: 150px;
+        padding-bottom: 90px;
+        font-size: 40px;
+        margin-left: 50px;
     }
 
     .story{
         padding: 5%;
-        background-position: top left;
+        background-position: top right;
         background-size: 75%;
-        margin-top: -65px;
+        margin-top: 65px;
     }
 
     .my-story{
@@ -120,7 +120,7 @@
     }
     .my-story img{
         width: 550px;
-        margin-top: -60px;
+        margin-bottom: 60px;
         padding: 90px;
     }
 
@@ -181,12 +181,11 @@ body{
     background-repeat: no-repeat;
 }
 
-.pga {
-    text-align: center;
-}
-
-.pga h1, .my-story h1{
-    font-family: 'Arapey', serif;
+.pga{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #8F8873;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.6px;
 }
 
 

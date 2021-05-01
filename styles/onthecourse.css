@@ -88,14 +88,15 @@
     }
 
         .schedule-image{
-            justify-content: center;
+            justify-content: stretch;
             align-items: center;
             text-align: center;
-            margin: 150px;
+            margin: 70px;
         }
         .schedule-image img{
-            width: 500px;
+            width: 400px;
             height: 400px;
+            justify-content: space-between;
         }
 .contact-bottom-words{
     margin-left: -215px;
@@ -119,7 +120,7 @@ body{
 h2{
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: lighter;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #8F8873;
     text-align: center;
 }
@@ -131,7 +132,7 @@ h2{
 caption {
     color: white;
     font-family: 'Asap', sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     font-weight: 500;
     caption-side: top;
