@@ -40,6 +40,9 @@
         padding: 20px;
         margin: auto;
     }
+    .schedule-image p{
+        text-align: center;
+    }
 
     .contact-bottom-words{
         background-size: 100%;
@@ -102,6 +105,14 @@
             height: 400px;
             justify-content: space-between;
         }
+
+    }
+    .schedule-image p{
+        text-align: right;
+        margin-right: 50px;
+        padding-right: 32px;
+    }
+    
 .contact-bottom-words{
     margin-left: -215px;
 }
