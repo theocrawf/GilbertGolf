@@ -44,11 +44,14 @@
         text-align: center;
     }
 
-    .contact-bottom-words{
+    /* .contact-bottom-words{
         background-size: 100%;
         margin-top: 40px;
         width: 100%;   
         padding-right: 5px;
+    } */
+    .contact-bottom{
+        margin: 0;
     }
     
     .footer{
@@ -106,7 +109,6 @@
             justify-content: space-between;
         }
 
-    }
     .schedule-image p{
         text-align: right;
         margin-right: 50px;
@@ -115,7 +117,7 @@
     
 .contact-bottom-words{
     margin-left: -215px;
-}
+    }
         .footer{
             /* padding-top: 200px; */
             margin-left: 35px;
