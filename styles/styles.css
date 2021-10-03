@@ -397,7 +397,13 @@ padding: 5px;
 .navbar .nav-links a:hover, a:visited{
     border-bottom: solid  #791C1C 7px;
     padding-bottom: 10px;
+    background-color: transparent;
 }
+.navbar .nav-links a:visited{
+    border-bottom: solid  #791C1C 7px;
+    padding-bottom: 10px;
+}
+
 
 
 .nav-links{
