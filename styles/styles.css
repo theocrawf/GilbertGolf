@@ -409,7 +409,8 @@ padding: 5px;
 .nav-links{
     list-style-type: none;
     display: flex;
-    padding-right: 80px;
+    padding-right: 25px;
+    margin-left: 20px;
 }
 
 
@@ -438,8 +439,8 @@ padding: 5px;
 }
 .next{
     margin-top: 10px;
-    margin-left: -70px;
-    margin-right: 50px;
+    margin-left: -100px;
+    margin-right: 0px;
 }
 .next a{
     padding-right: 50px;
