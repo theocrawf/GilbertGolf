@@ -49,7 +49,6 @@
     .lessons{
         width: 50%;
         margin-left: 100px;
-        margin-top: 40px;
         font-size: 20px;
         float: left;
     }
@@ -70,23 +69,13 @@
 
     .content{
         margin-top: 60px;
+        margin-bottom: 200px;
         text-align: center;
         justify-content: center;
     }
     .content img{
         width: 400px;
     }
-
-    .contact-bottom-words{
-        margin-left: -215px;
-    }
-  
-    .footer{
-      margin-top: -50px;
-      padding-bottom: 10px;
-        margin-left: 35px;
-    }
-
     
 }
 /*---------outside of media queries--------*/
