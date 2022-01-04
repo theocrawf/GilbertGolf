@@ -301,15 +301,17 @@ padding: 5px;
     padding-right: 5px;
 }
 
-#insta{
-    width: 40px;
-    height: 40px;
-}
-#fb{
-    width: 40px;
-    height: 40px;
-}
 #email{
+    width: 38px;
+    height: 38px;
+}
+
+#phone{
+    width: 34px;
+    height: 36px;
+}
+
+#insta, #fb{
     width: 40px;
     height: 40px;
 }
@@ -470,6 +472,9 @@ padding: 5px;
     font-weight: 400;
     font-size: 30px;
 }
+.pga-logo{
+    width: 50px;
+}
 
 .follow-container{
     letter-spacing: 13px;
@@ -607,6 +612,7 @@ padding: 5px;
     align-items: center;
     transform: translate(50%, 0%);
     text-align: center;
+    padding-bottom: 100px;
 }
 .sponsors h2{
     letter-spacing: 4px;
@@ -638,14 +644,12 @@ padding: 5px;
 }
 .contact-bottom{   
     background-size: 100%;
-    margin: 200px 40px 0 200px;
+    margin: 100px 40px 0px 40px;
     padding-top: 200px;
     text-align: right;
     line-height: 150px;
     padding: 0;
-    display: flex;
-    /* width: 80%; */
-    height: 600px;
+    /* height: auto; */
     
 }
 .gil, .austin{
@@ -662,9 +666,9 @@ padding: 5px;
 }
 
 .contact-bottom-words{
-    width: 100%;
-    padding-top: 30px;
-    margin-right: 70px;
+    width: 85%;
+    padding-top: 40px;
+    margin-left: 180px;
 }
 
 #insta, #fb{
@@ -677,12 +681,15 @@ padding: 5px;
     padding-bottom: 4px;
     margin-right: 2px;
 }
+#phone{
+    width: 38px;
+    height: 45px;
+    padding-bottom: 5px;
+    margin-right: 4px;
+}
  .footer{
-     width: 40%;
      text-align: left;
-     margin-left: 40px;
-     padding-bottom: 20px;
-     /* margin-top: -50px; */
+     margin-top: -20px;
  }
 
 }
@@ -1004,4 +1011,7 @@ button{
 .footer a{
     color: white;
     text-decoration: none;
+}
+.footer a:hover{
+    color: #CB5D0D;
 }

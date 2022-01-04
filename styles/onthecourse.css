@@ -41,7 +41,7 @@
         margin: auto;
     }
     .schedule-image p{
-        text-align: center;
+        text-align: right;
     }
 
     /* .contact-bottom-words{
@@ -115,13 +115,6 @@
         padding-right: 32px;
     }
     
-.contact-bottom-words{
-    margin-left: -215px;
-    }
-        .footer{
-            /* padding-top: 200px; */
-            margin-left: 35px;
-        }
 }
 
 
@@ -134,7 +127,7 @@ body{
     padding: 0;
 }
 
-h2{
+h2, h6{
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: lighter;
     /* text-transform: uppercase; */

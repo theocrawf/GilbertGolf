@@ -1,8 +1,30 @@
-h2{
-    font-size: 50px;
-   text-align: center;
-    color: #a6a6a6;
+
+
+/*----------Desktop View----------*/
+@media only screen and (min-width: 1000px){
+    .sponsor{
+        display: flex;
+        padding-bottom: 100px;
+    }
+
+    h2{
+        font-size: 40px;
+        margin: 100px 0 50px 100px;
+        text-align: left;
+    }
+
+    .content{
+        font-size: 20px;
+        margin: 20px 100px 0;
+        width: 50%;
+    }
+    video{
+        margin-top: 20px;
+    }
+
 }
+
+/*------Outside of Media Queries------------*/
 body{
     background-color: #3f3f3f;
     margin: 0;
@@ -10,4 +32,14 @@ body{
 
 #navbar{
     position: static;
+}
+
+h2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: lighter;
+    color: #8F8873;
+}
+
+.content{
+    font-family: 'Roboto', sans-serif;
 }
