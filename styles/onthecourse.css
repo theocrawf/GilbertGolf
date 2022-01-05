@@ -42,6 +42,8 @@
     }
     .schedule-image p{
         text-align: right;
+        font-size: 10px;
+        padding-right: 10%;
     }
 
     /* .contact-bottom-words{
@@ -133,10 +135,6 @@ h2, h6{
     /* text-transform: uppercase; */
     color: #8F8873;
     text-align: center;
-}
-
-#navbar{
-    position: static;
 }
 
 caption {
