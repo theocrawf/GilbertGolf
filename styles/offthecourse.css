@@ -2,11 +2,12 @@
     margin: 0;
       padding: 0;
       box-sizing: border-box;
+      /* border: 1px solid red; */
   }
 
 /*--------media query for mobile view-------------*/
 @media only screen and (max-width: 1000px){
-h2{
+.sponsorship{
     font-size: 30px;
     margin-top: 40px;
     padding-top: 20px;
@@ -17,11 +18,12 @@ h2{
     margin: 25px;
 }
 
-.sponsor video{
+video{
     margin-top: 20px;
-    padding: 5%;
+    /* padding: 5%; */
     width: 300px;
     height: 220px;
+    align-content: center;
     justify-content: center;
    
 }
@@ -57,7 +59,7 @@ h2{
 /*------Outside of Media Queries------------*/
 body{
     background-color: #3f3f3f;
-    margin: 0;
+    /* margin: 0; */
 }
 
 h2{

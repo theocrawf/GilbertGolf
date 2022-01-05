@@ -272,10 +272,9 @@
     transform: translate(0,85%);
 }
 .contact-bottom{   
-    padding-left: 50px; 
-    padding-top: 60px;
+    padding-left: 10px; 
+    padding-top: 100px;
     margin-right: 10px;
-    display: flex;
     justify-content: right;
     text-align: right;
     width: 100%;
@@ -295,33 +294,35 @@ padding: 5px;
 }
 
 .contact-bottom-words{
-    background-size: 100%;
-    margin-top: 40px;
-    width: 100%;   
-    padding-right: 5px;
+    background-size: 90%;
+    background-position: right;
+    margin-left: 20px;
+    width: 90%;   
+    height: 100%;
+    padding-top: 20px;
 }
 
 #email{
-    width: 38px;
-    height: 38px;
-}
-
-#phone{
-    width: 34px;
+    width: 36px;
     height: 36px;
 }
 
+#phone{
+    width: 32px;
+    height: 32px;
+}
+
 #insta, #fb{
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
 }
 
 .footer{
     text-align: left;
     /* margin-top: 20px; */
-    padding: 5px;
+    padding: 15px;
     font-size: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 }
