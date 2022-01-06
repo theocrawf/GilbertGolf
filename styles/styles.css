@@ -97,6 +97,10 @@
     padding-left: 30px;
 }
 
+.pga-logo{
+    width: 20px;
+}
+
 .follow-container{
     letter-spacing: 10px;
     width: auto;
@@ -166,10 +170,10 @@
     margin-bottom: 5%;
 }
 .readmore{
-    padding: 7px;
+    /* padding: 7px; */
     border-radius: 5px;    
     height: 30px;
-    width: 80px;
+    width: fit-content;
     font-size: 10px;
 }
 
@@ -201,6 +205,7 @@
 }
 #certified-button{
     /* margin-top: 5px; */
+    width: fit-content;
 }
 
 /* style for quote */
@@ -303,18 +308,18 @@ padding: 5px;
 }
 
 #email{
-    width: 36px;
-    height: 36px;
-}
-
-#phone{
     width: 32px;
     height: 32px;
 }
 
+#phone{
+    width: 28px;
+    height: 28px;
+}
+
 #insta, #fb{
-    width: 38px;
-    height: 38px;
+    width: 34px;
+    height: 34px;
 }
 
 .footer{
@@ -496,52 +501,50 @@ padding: 5px;
 
 /*--------------road section---------*/
 #road{
-    width: 100%;
-    height: 70vh;
-    display: flex;
+    height: 70vh;   
 }
-.road-container img{
+#road img{
+    width: 100%;
+    height: auto;
+    /* filter: brightness(55%); */
     margin-left: -10px;
-    width: 100%;
-    height: 75vh;
-}
-.houston-open img{
-    width: 100%;
-    height: 60vh;
 }
 #road h2{
     font-size: 36px;
     letter-spacing: 1px;
-    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .road-container{
-    width: 50%;
-    height: auto;
-    margin-left: 55px;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: -90px;
     padding: 5px;
-    /* margin-top: -390px;   
-    position: absolute; */
+    transform: translate(0px, -290px);
+    position: absolute;
     z-index: 1;
 }
-.houston-open{
-    width: 50%;
-    height: auto;
-}
-#road p{
-    font-size: 22px;
+
+.road-container img{
+    /* width: 10%; */
+    /* height: 50%; */
+    transform: translate(-40px, -190px);
+    position: relative;
+    z-index: -1;
 }
 
-/* .road-container img{
-   transform: translate(20px, -390px);
-   position: relative;
-   z-index: -1;
-} */
+#road p{
+    font-size: 22px;
+    text-shadow: -2px -2px 5px rgba(0,0,0,0.5);
+    width: 50%;
+    margin: 0%;
+}
 .readmore{
-    padding: 12px;
-    border-radius: 7px;    
     margin-top: 40px;
-   
+    border-radius: 5px;    
+    /* height: 30px; */
+    width: fit-content;
+    font-size: 16px;
 }
 
 /*------------certified section--------------*/
@@ -557,7 +560,7 @@ padding: 5px;
     text-align: right;
     margin-right: 0;  
     font-size: 22px;
-    transform: translate(22%, 25%);
+    transform: translate(25%, 30%);
 }
 #certified h2{
     font-size: 36px;
@@ -568,9 +571,10 @@ padding: 5px;
     width: 100%;
 }
 #certified-button{
-    margin-top: 60px;
-    padding: 15px;
+    margin-top: 40px;
+    /* padding: 15px; */
     font-size: 16px;
+    width: fit-content;
 }
 
 /* style for quote */
@@ -891,7 +895,7 @@ opacity: 30%;
     /* background-image: url(../images/gilbert1.png); */
     background-repeat: no-repeat;
     background-position: center;
-    display: block;
+    /* display: block; */
 }
 #road h2{
     font-family: 'Bai Jamjuree', sans-serif;
@@ -909,9 +913,10 @@ opacity: 30%;
     /* background-color: #CB5D0D;
     color: white; */
     font-family: 'Asap', sans-serif;
-    border:  2px solid #CB5D0D;
+    /* border:  2px solid #CB5D0D; */
     background-color: transparent;
     color: #CB5D0D;
+    border: none;
 }
 .readmore:hover{
     opacity: 30%;
