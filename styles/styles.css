@@ -994,7 +994,7 @@ button{
     cursor: pointer;
 }
 
-#email:hover, #insta:hover, #fb:hover{
+#email:hover, #insta:hover, #fb:hover, #phone:hover{
     opacity: 30%;
 }
 
