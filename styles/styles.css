@@ -436,11 +436,17 @@ padding: 5px;
     margin-top: 10px;
     margin-left: -100px;
     margin-right: 0px;
+    width: auto;
 }
 .next a{
-    padding-right: 50px;
+    margin-left: 10px;
     color: white;
     font-size: 18px;
+}
+.next a:hover {
+    text-decoration: none;
+    border-bottom: solid  #791C1C 7px;
+    padding-bottom: 10px;
 }
 
     /*----------- top section----------- */
@@ -604,8 +610,8 @@ padding: 5px;
 
 /*sponsor section*/
 .sponsor-container{
-    /* height: 1000px; */
-    margin: 0;
+    display: flex;
+    margin-top: 2rem;
     width: auto;
 }
 .sponsors{
